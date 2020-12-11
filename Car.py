@@ -8,7 +8,7 @@ class Car:
         print("I'm going {} kph!".format(self.speed))
 
     def accelerate(self):
-        self.speed += 15
+        self.speed += 0
 
     def brake(self):
         self.speed -= 5
